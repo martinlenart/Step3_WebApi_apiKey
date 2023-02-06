@@ -33,6 +33,7 @@ namespace Step3_WebApi_Jwt.Controllers
 
             if (_loginService.LoginUser(userLogins.UserName, userLogins.Password, out User user))
             {
+                _logger.LogInformation("User logged in, apiKey sent");
                 return Ok(user.apiKey);
             }
 
