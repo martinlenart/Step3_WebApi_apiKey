@@ -23,7 +23,7 @@ namespace Step3_WebApi_Jwt.Controllers
         }
 
 
-        //GET: api/Login/LoginUser
+        //POST: api/Login/LoginUser
         [HttpPost]
         [ProducesResponseType(200, Type = typeof(Guid))]
         [ProducesResponseType(400, Type = typeof(string))]
