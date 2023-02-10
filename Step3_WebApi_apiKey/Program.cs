@@ -1,8 +1,8 @@
-﻿using Step3_WebApi_WebApi.Logger;
-using Step3_WebApi_WebApi.Models;
-using Step3_WebApi_Jwt.Services;
+﻿using Step3_WebApi_apiKey.Logger;
+using Step3_WebApi_apiKey.Models;
+using Step3_WebApi_apiKey.Services;
 
-namespace Step3_WebApi_WebApi;
+namespace Step3_WebApi_apiKey;
 
 public class Program
 {

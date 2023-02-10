@@ -4,7 +4,7 @@ using System.Linq;
 using Newtonsoft.Json;
 using Microsoft.Extensions.Logging;
 
-namespace Step3_WebApi_WebApi.Logger
+namespace Step3_WebApi_apiKey.Logger
 {
     public sealed class InMemoryLoggerProvider : ILoggerProvider
     {

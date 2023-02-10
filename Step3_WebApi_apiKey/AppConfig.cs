@@ -5,9 +5,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Step3_WebApi_Jwt.Models;
+using Step3_WebApi_apiKey.Models;
 
-namespace Step3_WebApi_Jwt
+namespace Step3_WebApi_apiKey
 {
     public sealed class AppConfig
     {

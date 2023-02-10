@@ -1,8 +1,8 @@
 ﻿using System;
-using Step3_WebApi_Jwt.Models;
+using Step3_WebApi_apiKey.Models;
 
 
-namespace Step3_WebApi_Jwt.Services
+namespace Step3_WebApi_apiKey.Services
 {
     public interface ILoginService
     {

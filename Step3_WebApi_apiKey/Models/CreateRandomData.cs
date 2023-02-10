@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Step3_WebApi_WebApi.Models
+namespace Step3_WebApi_apiKey.Models
 {
     public class GoodQuote
     {

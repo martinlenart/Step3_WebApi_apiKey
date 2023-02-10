@@ -2,10 +2,10 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-using Step3_WebApi_Jwt.Models;
-using Step3_WebApi_Jwt.Services;
+using Step3_WebApi_apiKey.Models;
+using Step3_WebApi_apiKey.Services;
 
-namespace Step3_WebApi_Jwt.Controllers
+namespace Step3_WebApi_apiKey.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]

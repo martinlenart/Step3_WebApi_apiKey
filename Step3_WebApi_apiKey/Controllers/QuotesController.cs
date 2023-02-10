@@ -6,11 +6,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Diagnostics.Metrics;
 
-using Step3_WebApi_WebApi.Models;
-using Step3_WebApi_Jwt.Services;
-using Microsoft.AspNetCore.Authorization;
+using Step3_WebApi_apiKey.Models;
+using Step3_WebApi_apiKey.Services;
 
-namespace Step3_WebApi_Jwt.Controllers
+namespace Step3_WebApi_apiKey.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

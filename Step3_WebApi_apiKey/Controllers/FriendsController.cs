@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.DataProtection.KeyManagement;
 using Microsoft.AspNetCore.Mvc;
-using Step3_WebApi_Jwt.Services;
-using Step3_WebApi_WebApi.Models;
+using Step3_WebApi_apiKey.Services;
+using Step3_WebApi_apiKey.Models;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace Step3_WebApi_Jwt.Controllers
+namespace Step3_WebApi_apiKey.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Step3_WebApi_Jwt.Models
+namespace Step3_WebApi_apiKey.Models
 {
     public class User
     {
